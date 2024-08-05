@@ -4,7 +4,7 @@ import Navbar from '../navbar/Navbar';
 import Logo from '../logo/Logo';
 
 // eslint-disable-next-line react/prop-types
-const Header = ({ loginCSS, signupCSS, navColor, light }) => {
+const Header = ({ loginCSS, navColor, light }) => {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
@@ -27,10 +27,7 @@ const Header = ({ loginCSS, signupCSS, navColor, light }) => {
           {/* Header User Event */}
           <div className='flex items-center gap-6'>
             <Link to='/login' className={loginCSS}>
-              Login
-            </Link>
-            <Link to='/signup' className={signupCSS}>
-              Sign up free
+              Connect to Wallet
             </Link>
             {/* Responsive Off-canvas Menu Button */}
             <div className='block lg:hidden'>

@@ -1,22 +1,28 @@
 import { Link } from 'react-router-dom';
-import { Autoplay } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Autoplay } from 'swiper/modules';
+// import { Swiper, SwiperSlide } from 'swiper/react';
+import Home from '../../../assets/img/Home.png';
+
 
 const Hero = () => {
   return (
     <>
-      {/*...::: Hero Section Start :::... */}
-      <section id='section-hero'>
-        <div className='relative z-[1] overflow-hidden rounded-bl-[30px] rounded-br-[30px] bg-colorLinenRuffle pb-20 pt-28 lg:rounded-bl-[50px] lg:rounded-br-[50px] lg:pb-24 lg:pt-32 xl:pt-40 xxl:pb-[133px] xxl:pt-[195px]'>
+      <section
+        id='section-hero'
+      >
+        <div 
+        className='relative z-[1] overflow-hidden pb-20 pt-28 lg:pb-24 lg:pt-32 xl:pt-40 xxl:pb-[230px] xxl:pt-[260px]'
+        style={{
+          backgroundImage: `url(${Home})`, 
+          backgroundSize: 'cover', 
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+        >
           <div className='global-container'>
             <div className='mb-14 flex flex-col items-center text-center lg:mb-20'>
-              <h1 className='jos slide-from-bottom mb-6 max-w-[510px] lg:max-w-[768px] xl:max-w-[1076px]'>
-                Simplify your SaaS solution with AI
-              </h1>
-              <p className='jos slide-from-bottom mb-11 max-w-[700px] text-lg font-semibold sm:text-xl xl:max-w-[980px]'>
-                Our AI SAAS tool is a cloud-based software delivery model. It
-                helps businesses forecast demand for products and services and
-                optimize inventory management and supply chain operations.
+              <p className='jos slide-from-bottom text-[#fff] text-[3.5rem] mb-6 max-w-[510px] lg:max-w-[768px] xl:max-w-[1076px]'>
+              Empowering Web3 ReFi Projects for a Sustainable Future
               </p>
               <div
                 className='jos flex flex-wrap justify-center gap-6'
@@ -24,39 +30,19 @@ const Hero = () => {
               >
                 <Link
                   to='/contact'
-                  className='button rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white'
+                  className='button rounded-[10px] border-2  bg-[#fff] py-4 text-[#2A5139] after:bg-[#000] hover:border-[#000] hover:text-white'
                 >
-                  Get started for free
+                  Invest Now
                 </Link>
                 <Link
                   to='/about'
-                  className='button rounded-[50px] border-2 border-black bg-transparent py-4 text-black after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white'
+                  className='button rounded-[10px] border-2 border-[#fff] bg-transparent py-4 text-[#fff] after:bg-[#000] hover:border-[#000] hover:text-white'
                 >
-                  Learn more
+                  Submit Project
                 </Link>
               </div>
             </div>
-            <div
-              className='jos hero-img overflow-hidden rounded-2xl bg-black'
-              data-jos_animation='zoom'
-            >
-              <img
-                src='assets/img/th-1/hero-dashboard.jpg'
-                alt='hero-dashboard'
-                width='1296'
-                height='640'
-                className='h-auto w-full'
-              />
-            </div>
-
-            <div className='my-10 h-[1px] w-full bg-[#DBD6CF] lg:my-16 xl:my-20'></div>
-            <div className='jos mx-auto mb-12 max-w-[715px] text-center lg:mb-16'>
-              <p className='text-lg'>
-                Companies of all sizes trust us to find AI SaaS critical to
-                their growth and innovation
-              </p>
-            </div>
-            <div className='jos brand-slider' data-jos_animation='fade'>
+            {/* <div className='jos brand-slider' data-jos_animation='fade'>
               <Swiper
                 slidesPerView={2}
                 spaceBetween={105}
@@ -168,14 +154,10 @@ const Hero = () => {
                   />
                 </SwiperSlide>
               </Swiper>
-            </div>
+            </div> */}
           </div>
-          <div className='orange-gradient-1 absolute -right-[150px] top-[370px] -z-[1] h-[500px] w-[500px] animate-spin rounded-[500px]'></div>
-
-          <div className='orange-gradient-2 absolute right-[57px] top-[620px] -z-[1] h-[450px] w-[450px] animate-spin rounded-[450px]'></div>
         </div>
       </section>
-      {/*...::: Hero Section End :::... */}
     </>
   );
 };
