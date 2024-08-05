@@ -17,7 +17,7 @@ const Layout = () => {
       {/*...::: Main End :::... */}
 
       {/*...::: Footer Start :::... */}
-      <Footer_01 />
+      {/* <Footer_01 /> */}
       {/*...::: Footer End :::... */}
     </div>
   );

@@ -1,5 +1,5 @@
 {
-  "name": "azzle-ai",
+  "name": "Refi STARTER",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +12,7 @@
   "dependencies": {
     "fslightbox-react": "^1.7.6",
     "jos-animation": "^0.9.2",
-    "react": "^18.3.1",
+    "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.1",
     "sweetalert": "^2.1.2",

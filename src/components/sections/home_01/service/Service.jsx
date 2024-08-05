@@ -1,4 +1,5 @@
-
+import Service_Block from '../../../../components/widget/Service_Block';
+import data from './data.json';
 
 const Service = () => {
   return (
@@ -6,144 +7,27 @@ const Service = () => {
       {/*...::: Service Section Start :::... */}
       <section id='section-service'>
         {/* Section Spacer */}
-        <div className="h-full md:h-[100vh] bg-black">
-          <div className="p-8 flex items-center justify-center">
-            <p className="text-3xl font-bold text-white font-jost">What are we looking for?</p>
+        <div className='pb-20 pt-20 xl:pb-[150px] xl:pt-[130px]'>
+          {/* Section Container */}
+          <div className='global-container'>
+            {/* Section Content Block */}
+            <div className='jos mb-10 lg:mb-16 xl:mb-20'>
+              <div className='md:max-w-sm lg:max-w-xl xl:max-w-[746px]'>
+                <h2>Core features that make it valuable</h2>
+              </div>
+            </div>
+            {/* Section Content Block */}
+            {/* Service List */}
+            <ul className='jos grid grid-cols-1 gap-[2px] overflow-hidden rounded-[10px] border-2 border-black bg-black sm:grid-cols-2 lg:grid-cols-4'>
+              {/* Service Item */}
+              {data.map((item, index) => (
+                <Service_Block key={index} {...item} />
+              ))}
+              {/* Service Item */}
+            </ul>
+            {/* Service List */}
           </div>
-          <div className="flex flex-col gap-[3rem] font-alata">
-            <div className="flex flex-wrap gap-[2rem] items-center justify-center">
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className="bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/icons/climate-house.svg" />
-                </button>
-                <span className="w-[8rem] text-center text-white">Climate Tech Circular Solutions</span>
-              </div>
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className="bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/icons/co2.svg" />
-                </button>
-                <span className="w-[8rem] text-center text-white">Decarbonisation</span>
-              </div>
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className="bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/Vector1.png" />
-                </button>
-                <span className="w-[8rem] text-center text-white">Open Source Regenerative AI</span>
-              </div>
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className="bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/Vector2.png" />
-                </button>
-                <span className="w-[8rem] text-center text-white">FoodTech, AgroTech Marginal Communities</span>
-              </div>
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className="bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/Vector3.png" />
-                </button>
-                <span className="w-[8rem] text-center text-white">Psychosocial wellbeing</span>
-              </div>
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className="bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/Vector4.png" />
-                </button>
-                <span className="w-[8rem] text-center text-white">Infra: Data Security, Privacy Trust on Web3</span>
-              </div>
-            </div>
-            <div className="flex flex-wrap gap-[2rem] items-center justify-center">
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className="bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/Vector5.png" />
-                </button>
-                <span className="w-[8rem] text-center text-white">Drones, AI, Eco-automation</span>
-              </div>
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className="bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/Vector6.png" />
-                </button>
-                <span className="w-[8rem] text-center text-white">DeSci, BioTech MedTech, HealthTech</span>
-              </div>
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className="bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/Vector7.png" />
-                </button>
-                <span className="w-[8rem] text-center text-white">Recycling and Saving</span>
-              </div>
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className="bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/Vector8.png" />
-                </button>
-                <span className="w-[8rem] text-center text-white">Clean Energy Storage, Exchange & Efficiency</span>
-              </div>
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className="bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/Vector9.png" />
-                </button>
-                <span className="w-[8rem] text-center text-white">Forestation, Carbon Sequestration</span>
-              </div>
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className="bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/Vector10.png" />
-                </button>
-                <span className="w-[8rem] text-center text-white">Coral reforestation</span>
-              </div>
-            </div>
-            <div className="flex flex-wrap gap-[2rem] items-center justify-center">
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className=" gap-3bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/Vector11.png" />
-                </button>
-                <span className="w-[8rem] text-center text-white">Automatization of Biodiversity protection</span>
-              </div>
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className="bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/Vector12.png" />
-                </button>
-                <span className="w-[8rem] text-center text-white">Community-based regenerative infrastructure</span>
-              </div>
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className="bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/Vector13.png" />
-                </button>
-                <span className="w-[8rem] text-center text-white">Soil recovery</span>
-              </div>
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className="bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/Vector14.png" />
-                </button>
-                <span className="w-[8rem] text-center text-white">Hydro energy alternatives</span>
-              </div>
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className="bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/Vector15.png" />
-                </button>
-                <span className="w-[8rem] text-center text-white">Anti-plastic solutions</span>
-              </div>
-              <div className="w-[10rem] flex flex-col items-center justify-center gap-3">
-                <button
-                  className="bg-transparent border border-white text-black w-[3rem] h-[3rem] rounded-full	 flex items-center justify-center">
-                  <img src="assets/images/Vector16.png" />
-                </button>
-                <span className="w-[8rem] text-center text-white">Replacement Technologies </span>
-              </div>
-            </div>
-          </div>
+          {/* Section Container */}
         </div>
         {/* Section Spacer */}
       </section>

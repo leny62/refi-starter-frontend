@@ -4,7 +4,7 @@ import Navbar from '../navbar/Navbar';
 import Logo from '../logo/Logo';
 
 // eslint-disable-next-line react/prop-types
-const Header = ({ loginCSS, navColor, light }) => {
+const Header = ({ loginCSS, signupCSS, navColor, light }) => {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   return (

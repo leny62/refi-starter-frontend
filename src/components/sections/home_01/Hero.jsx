@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
-// import { Autoplay } from 'swiper/modules';
-// import { Swiper, SwiperSlide } from 'swiper/react';
-import Home from '../../../assets/img/Home.png';
-
+import { Autoplay } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import Home from '../../../assets/img/Home.png'
 
 const Hero = () => {
   return (
     <>
+      {/*...::: Hero Section Start :::... */}
       <section
         id='section-hero'
       >
@@ -158,6 +158,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
+      {/*...::: Hero Section End :::... */}
     </>
   );
 };
