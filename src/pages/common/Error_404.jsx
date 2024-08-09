@@ -12,7 +12,7 @@ const Error_404 = () => {
             <div className='global-container'>
               {/* 404 Content */}
               <div className='mx-auto max-w-[954px] text-center'>
-                <h1 className="bg-[url('/assets/img/th-1/404-text-image.jpg')] bg-contain bg-clip-text bg-center bg-no-repeat text-[150px] text-transparent sm:text-[220px] lg:text-[300px] xl:text-[350px]">
+                <h1 className="bg-[url('public/assets/img/th-1/404-text-image.jpg')] bg-contain bg-clip-text bg-center bg-no-repeat text-[150px] text-transparent sm:text-[220px] lg:text-[300px] xl:text-[350px]">
                   404
                 </h1>
                 <h2 className='mb-[50px]'>
