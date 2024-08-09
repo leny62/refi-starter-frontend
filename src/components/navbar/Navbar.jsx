@@ -69,14 +69,14 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
             className='nav-item nav-item-has-children'
           >
             <Link to='#' className='nav-link-item drop-trigger'>
-              <p className='text-[#fff]'>
+              <p className='text-black'>
                 Home
               </p>
             </Link>
           </li>
           <li className='nav-item'>
             <Link to='/about' className='nav-link-item'>
-              <p className='text-[#fff]'>
+              <p className='text-black'>
                 Projects
               </p>
             </Link>
@@ -86,7 +86,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
             className='nav-item nav-item-has-children'
           >
             <Link to='#' className='nav-link-item drop-trigger'>
-              <p className='text-[#fff]'>
+              <p className='text-black'>
                 Team
               </p>
             </Link>
@@ -96,14 +96,14 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
             className='nav-item nav-item-has-children'
           >
             <Link to='#' className='nav-link-item drop-trigger'>
-              <p className='text-[#fff]'>
+              <p className='text-black'>
                 Launchpad
               </p>
             </Link>
           </li>
           <li className='nav-item'>
             <Link to='/contact' className='nav-link-item'>
-              <p className='text-[#fff]'>
+              <p className='text-black'>
                 Entrepreneurs
               </p>
             </Link>

@@ -14,7 +14,7 @@ const Content_01 = () => {
                 data-jos_animation='fade-left'
               >
                 <img
-                  src='assets/img/th-1/content-image-1.jpg'
+                  src='assets/img/th-1/accessible.png'
                   alt='content-image-1'
                   width='526'
                   height='450'
@@ -29,19 +29,16 @@ const Content_01 = () => {
               >
                 {/* Section Content Block */}
                 <div className='mb-6'>
-                  <h2>Accessible to a wider audience</h2>
+                  <h2 className=" text-[36px] md:text-[52px]">Climate technology startups on domand</h2>
                 </div>
                 {/* Section Content Block */}
                 <div className='text-lg leading-[1.4] lg:text-[21px]'>
                   <p className='mb-7 last:mb-0'>
-                    Advanced AI capabilities accessible to a broader audience,
-                    including small & medium-sized businesses and individuals
-                    who may not have the resources or expertise to develop.
+                    According to 2022 MIT Research, the world needs dozens of emerging climate technology Startups in the next decades to tackle global emissions.
                   </p>
                   <p className='mb-7 last:mb-0'>
-                    Advanced AI capabilities accessible to a broader audience,
-                    including small & medium-sized businesses and individuals
-                    who may not have the resources or expertise to develop.
+                    Our goal is to amplify the impact of Blockchain technology linking outstanding ventures with  community of supporters, prioritizing excellence, trustworthiness, and relentless execution.
+
                   </p>
                 </div>
               </div>

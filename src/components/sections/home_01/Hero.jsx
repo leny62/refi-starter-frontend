@@ -11,11 +11,11 @@ const Hero = () => {
         <div className='relative z-[1] overflow-hidden rounded-bl-[30px] rounded-br-[30px] bg-colorLinenRuffle pb-20 pt-28 lg:rounded-bl-[50px] lg:rounded-br-[50px] lg:pb-24 lg:pt-32 xl:pt-40 xxl:pb-[133px] xxl:pt-[195px]'>
           <div className='global-container'>
             <div className='mb-14 flex flex-col items-center text-center lg:mb-20'>
-              <h1 className='text-[5rem] jos slide-from-bottom mb-6 max-w-[510px] lg:max-w-[768px] xl:max-w-[1076px]'>
+              <h1 className='text-[3rem] md:text-[5rem] jos slide-from-bottom mb-6 max-w-[510px] lg:max-w-[768px] xl:max-w-[1076px]'>
                 The Specialized Launchpad for a Regenerative Future
               </h1>
               <p className='jos slide-from-bottom mb-11 max-w-[700px] text-lg font-semibold sm:text-xl xl:max-w-[980px]'>
-                Fortering a global regenerative startup ecosystem thriving and tackling the urgent problems of the world, while creating a nature-protective economy owned by the community.
+                Fostering a global regenerative startup ecosystem thriving and tackling the urgent problems of the world, while creating a nature-protective economy owned by the community.
               </p>
               <div
                 className='jos flex flex-wrap justify-center gap-6'
@@ -78,10 +78,10 @@ const Hero = () => {
               >
                 <SwiperSlide>
                   <img
-                    src='assets/img/th-1/brand-1.png'
-                    alt='brand-1'
-                    width='180'
-                    height='38'
+                    src='assets/img/icons/refi-dao.png'
+                    alt='refi-dao'
+                    width='50'
+                    height='1'
                     className='max-w-full'
                   />
                 </SwiperSlide>
