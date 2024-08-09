@@ -1,3 +1,5 @@
+import Accessible from '../../../assets/img/accessible.png'
+
 const Content_01 = () => {
   return (
     <>
@@ -14,8 +16,8 @@ const Content_01 = () => {
                 data-jos_animation='fade-left'
               >
                 <img
-                  src='public/assets/img/th-1/accessible.png'
-                  alt='content-image-1'
+                  src={Accessible}
+                  alt='Accessible'
                   width='526'
                   height='450'
                   className='h-auto w-full'
