@@ -14,11 +14,12 @@ const Content_01 = () => {
                 data-jos_animation='fade-left'
               >
                 <img
-                  src='assets/img/th-1/accessible.png'
+                  src='public/assets/img/th-1/accessible.png'
                   alt='content-image-1'
                   width='526'
                   height='450'
                   className='h-auto w-full'
+                  loading="lazy"
                 />
               </div>
               {/* Content Left Block */}
