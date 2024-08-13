@@ -3,7 +3,7 @@ import Service from '../../components/sections/home_01/service/Service';
 import Content_01 from '../../components/sections/home_01/Content_01';
 import Content_02 from '../../components/sections/home_01/Content_02';
 import FunFact from '../../components/sections/home_01/FunFact';
-import Pricing from '../../components/sections/home_01/Pricing';
+// import Pricing from '../../components/sections/home_01/Pricing';
 // import Testimonial_Section from '../../components/sections/home_01/Testimonial_Section';
 
 const Home_01 = () => {
@@ -14,8 +14,8 @@ const Home_01 = () => {
       <Content_01 />
       {/* <Content_02 /> */}
       <FunFact />
-      <Pricing />
-      {/* <Testimonial_Section /> */}
+      {/* <Pricing />
+      <Testimonial_Section /> */}
 
       {/* Body Background Shape 1 */}
     </main>
