@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom';
 import useTabs from '../../../hooks/useTabs';
+import ProjectImage from '../../../assets/img/img/ProjectImage.png'
+import ProjectImage2 from '../../../assets/img/img/ProjectImage2.png'
+import ProjectImage3 from '../../../assets/img/img/ProjectImage3.png'
 
 const Pricing = () => {
   const [activeTab, handleTab] = useTabs();
@@ -14,249 +17,164 @@ const Pricing = () => {
             {/* Section Content Block */}
             <div className='jos mb-10 text-center lg:mb-12'>
               <div className='mx-auto md:max-w-xs lg:max-w-xl xl:max-w-[746px]'>
-                <h2>Cost-effectively build any software</h2>
+                <h2>Projects</h2>
               </div>
             </div>
             {/* Section Content Block */}
             {/* Pricing Block */}
             <div className='container mx-auto'>
-              {/* Tab buttons */}
-              <div
-                className='jos flex justify-center'
-                data-jos_animation='fade'
-              >
-                <div className='inline-flex space-x-4 rounded-[50px] border-2 border-black font-semibold'>
-                  <button
-                    className={`tab-button price-button ${
-                      activeTab === 0 ? 'active' : ''
-                    }`}
-                    onClick={() => handleTab(0)}
-                    data-tab='monthly'
-                  >
-                    Monthly
-                  </button>
-                  <button
-                    className={`tab-button price-button ${
-                      activeTab === 1 ? 'active' : ''
-                    }`}
-                    onClick={() => handleTab(1)}
-                    data-tab='annually'
-                  >
-                    Annually
-                  </button>
+              <div class="flex flex-wrap gap-[1rem] justify-center" id="projects">
+                <div class="w-[21rem] h-[37rem] bg-[#202124] border-2 rounded">
+                  <div class="w-[100%] flex flex-col justify-center items-center">
+                    <img src={ProjectImage} class="w-[95%] h-auto py-[0.5rem]" />
+                  </div>
+                  <div class="px-[1.5rem]">
+                    <p class="text-[#2DAEAF] text-xl font-bold font-jost">Motus DAO</p>
+                    <p class="text-white text-xs font-jost">Universal Health DAO Fund</p>
+                    <div class="flex items-center w-full py-2 text-white mt-[2rem]">
+                      <span class="text-xs">Network</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">CELO</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Fundraise Goal</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">TBA</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Type</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">IDO</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Launch Date</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">TBA</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Mix Allocation</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">TBA</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Max Allocation</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">TBA</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Registration Period</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">TBA</span>
+                    </div>
+                  </div>
+                  <div class="flex items-center justify-center">
+                    <button class="bg-gradient-to-r text-[#252525] py-2 px-4 rounded-lg mt-4 w-[20rem] text-xs font-bold"
+                      style={{ backgroundImage: 'linear-gradient(to right, #31DDDD, #83C543)' }}>
+                      TOKEN SALE
+                    </button>
+                  </div>
+                </div>
+                <div class="w-[21rem] h-[37rem] bg-[#202124] border-2 rounded">
+                  <div class="w-[100%] flex flex-col justify-center items-center">
+                    <img src={ProjectImage2} class="w-[95%] h-auto py-[0.5rem]" />
+                  </div>
+                  <div class="px-[1.5rem]">
+                    <p class="text-[#2DAEAF] text-xl font-bold font-jost">ReFI Rides</p>
+                    <p class="text-white text-xs font-jost">Decentralized fleet of eco-transportation</p>
+                    <div class="flex items-center w-full py-2 text-white mt-[2rem]">
+                      <span class="text-xs">Network</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">ARB</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Fundraise Goal</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">TBA</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Type</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">IDO</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Launch Date</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">TBA</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Mix Allocation</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">TBA</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Max Allocation</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">TBA</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Registration Period</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">TBA</span>
+                    </div>
+                  </div>
+                  <div class="flex items-center justify-center">
+                    <button class="bg-gradient-to-r text-[#252525] py-2 px-4 rounded-lg mt-4 w-[20rem] text-xs font-bold"
+                      style={{ backgroundImage: 'linear-gradient(to right, #31DDDD, #83C543)' }}>
+                      TOKEN SALE
+                    </button>
+                  </div>
+                </div>
+                <div class="w-[21rem] h-[37rem] bg-[#202124] border-2 rounded">
+                  <div class="w-[100%] flex flex-col justify-center items-center">
+                    <img src={ProjectImage3} class="w-[95%] h-auto py-[0.5rem]" />
+                  </div>
+                  <div class="px-[1.5rem]">
+                    <p class="text-[#2DAEAF] text-xl font-bold font-jost">Regen OG</p>
+                    <p class="text-white text-xs font-jost">Regen Community Token</p>
+                    <div class="flex items-center w-full py-2 text-white mt-[2rem]">
+                      <span class="text-xs">Network</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">OP</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Fundraise Goal</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">TBA</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Type</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">IDO</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Launch Date</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">TBA</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Mix Allocation</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">TBA</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Max Allocation</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">TBA</span>
+                    </div>
+                    <div class="flex items-center w-full py-2 text-white">
+                      <span class="text-xs">Registration Period</span>
+                      <div class="flex-1 border-t border-dotted border-white mx-2"></div>
+                      <span class="text-xs">TBA</span>
+                    </div>
+                  </div>
+                  <div class="flex items-center justify-center">
+                    <button class="bg-gradient-to-r text-[#252525] py-2 px-4 rounded-lg mt-4 w-[20rem] text-xs font-bold"
+                      style={{ backgroundImage: 'linear-gradient(to right, #31DDDD, #83C543)' }}>
+                      TOKEN SALE
+                    </button>
+                  </div>
                 </div>
               </div>
-
-              {/* Pricing Block */}
-              <div className='mt-12 lg:mt-16 xl:mt-20'>
-                {/* Price List */}
-                {activeTab === 0 && (
-                  <ul
-                    id='monthly'
-                    className='tab-content grid grid-cols-1 gap-6 md:grid-cols-2 xxl:grid-cols-3'
-                  >
-                    {/* Price Item */}
-                    <li
-                      className='jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-10 transition-all duration-300 ease-linear hover:bg-black'
-                      data-jos_animation='flip'
-                      data-jos_delay='0'
-                    >
-                      <h3 className='font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        Beginner
-                      </h3>
-                      <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        Up to 10 members
-                      </span>
-
-                      <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
-                      <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
-                        $25
-                        <span className='text-lg font-semibold'>
-                          /Per month
-                        </span>
-                      </h4>
-                      <p className='mb-10 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        This is an excellent option for people & small
-                        businesses who are starting out.
-                      </p>
-                      <Link
-                        to='/pricing'
-                        className='button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white'
-                      >
-                        Choose the plan
-                      </Link>
-                    </li>
-                    {/* Price Item */}
-                    {/* Price Item */}
-                    <li
-                      className='jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-10 transition-all duration-300 ease-linear hover:bg-black'
-                      data-jos_animation='flip'
-                      data-jos_delay='0'
-                    >
-                      <h3 className='font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        Starter
-                      </h3>
-                      <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        Up to 50 members
-                      </span>
-
-                      <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
-                      <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
-                        $89
-                        <span className='text-lg font-semibold'>
-                          /Per month
-                        </span>
-                      </h4>
-                      <p className='mb-10 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        This plan is suitable for e-commerce stores as well as
-                        professional blogs.
-                      </p>
-                      <Link
-                        to='/pricing'
-                        className='button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white'
-                      >
-                        Choose the plan
-                      </Link>
-                    </li>
-                    {/* Price Item */}
-                    {/* Price Item */}
-                    <li
-                      className='jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-10 transition-all duration-300 ease-linear hover:bg-black'
-                      data-jos_animation='flip'
-                      data-jos_delay='0'
-                    >
-                      <h3 className='font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        Pro
-                      </h3>
-                      <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        Up to 100 members
-                      </span>
-
-                      <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
-                      <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
-                        $199
-                        <span className='text-lg font-semibold'>
-                          /Per month
-                        </span>
-                      </h4>
-                      <p className='mb-10 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        Ideal for handling complicated projects enterprise-level
-                        projects, and websites.
-                      </p>
-                      <Link
-                        to='/pricing'
-                        className='button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white'
-                      >
-                        Choose the plan
-                      </Link>
-                    </li>
-                    {/* Price Item */}
-                  </ul>
-                )}
-                {/* Price List */}
-                {/* Price List */}
-                {activeTab === 1 && (
-                  <ul
-                    id='annually'
-                    className='tab-content grid grid-cols-1 gap-6 md:grid-cols-2 xxl:grid-cols-3'
-                  >
-                    {/* Price Item */}
-                    <li
-                      className='jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-10 transition-all duration-300 ease-linear hover:bg-black'
-                      data-jos_animation='flip'
-                      data-jos_delay='0'
-                    >
-                      <h3 className='font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        Beginner
-                      </h3>
-                      <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        Up to 10 members
-                      </span>
-
-                      <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
-                      <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
-                        $240
-                        <span className='text-lg font-semibold'>/Per year</span>
-                      </h4>
-                      <p className='mb-10 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        This is an excellent option for people & small
-                        businesses who are starting out.
-                      </p>
-                      <Link
-                        to='/pricing'
-                        className='button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white'
-                      >
-                        Choose the plan
-                      </Link>
-                    </li>
-                    {/* Price Item */}
-                    {/* Price Item */}
-                    <li
-                      className='jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-10 transition-all duration-300 ease-linear hover:bg-black'
-                      data-jos_animation='flip'
-                      data-jos_delay='0'
-                    >
-                      <h3 className='font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        Starter
-                      </h3>
-                      <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        Up to 50 members
-                      </span>
-
-                      <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
-                      <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
-                        $960
-                        <span className='text-lg font-semibold'>/Per year</span>
-                      </h4>
-                      <p className='mb-10 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        This plan is suitable for e-commerce stores as well as
-                        professional blogs.
-                      </p>
-                      <Link
-                        to='/pricing'
-                        className='button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white'
-                      >
-                        Choose the plan
-                      </Link>
-                    </li>
-                    {/* Price Item */}
-                    {/* Price Item */}
-                    <li
-                      className='jos group flex flex-col rounded-[10px] bg-colorLinenRuffle p-10 transition-all duration-300 ease-linear hover:bg-black'
-                      data-jos_animation='flip'
-                      data-jos_delay='0'
-                    >
-                      <h3 className='font-dmSans text-[28px] font-bold leading-[1.28] tracking-tighter text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        Pro
-                      </h3>
-                      <span className='text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        Up to 100 members
-                      </span>
-
-                      <div className='my-5 h-[1px] w-full bg-[#DBD6CF]'></div>
-                      <h4 className='mb-4 font-dmSans text-5xl font-bold leading-none text-black transition-all duration-300 ease-linear group-hover:text-white md:text-6xl lg:text-7xl xl:text-[80px]'>
-                        $1800
-                        <span className='text-lg font-semibold leading-none'>
-                          /Per year
-                        </span>
-                      </h4>
-                      <p className='mb-10 text-lg text-black transition-all duration-300 ease-linear group-hover:text-white'>
-                        Ideal for handling complicated projects enterprise-level
-                        projects, and websites.
-                      </p>
-                      <Link
-                        to='/pricing'
-                        className='button mt-auto block rounded-[50px] border-2 border-black bg-transparent py-4 text-center text-black transition-all duration-300 ease-linear after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-black group-hover:border-colorOrangyRed group-hover:text-white'
-                      >
-                        Choose the plan
-                      </Link>
-                    </li>
-                    {/* Price Item */}
-                  </ul>
-                )}
-                {/* Price List */}
-              </div>
-              {/* Pricing Block */}
             </div>
           </div>
           {/* Section Container */}
