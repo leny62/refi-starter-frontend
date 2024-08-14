@@ -23,13 +23,13 @@ const Hero = () => {
               >
                 <Link
                   to='/contact'
-                  className='button rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white'
+                  className='button rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-[#fff] hover:border-[#fff] hover:text-[#000]'
                 >
                   Submit Project
                 </Link>
                 <Link
                   to='/about'
-                  className='button rounded-[50px] border-2 border-black bg-transparent py-4 text-black after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white'
+                  className='button rounded-[50px] border-2 border-black bg-transparent py-4 text-black after:bg-[#000] hover:border-[#fff] hover:text-[#fff]'
                 >
                   Join Whitelist
                 </Link>

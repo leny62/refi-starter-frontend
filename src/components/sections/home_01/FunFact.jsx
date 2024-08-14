@@ -8,9 +8,9 @@ const FunFact = () => {
   return (
     <>
       {/*...::: FunFact Section Start :::... */}
-      <section id='funfact-section' className="h-full md:h-[60vh] jos grid grid-cols-1 overflow-hidden rounded-[30px] bg-black lg:rounded-[50px] w-full md:w-[90%] mx-auto my-0">
-        <div className="border border-white p-8 flex items-center justify-center">
-          <h2 className="text-5xl font-bold text-blue-300 font-jost">OUR FOCUS</h2>
+      <section id='funfact-section' className="h-full md:h-full jos grid grid-cols-1 overflow-hidden rounded-[30px] bg-black lg:rounded-[50px] w-full md:w-[90%] mx-auto my-0">
+        <div className="p-8 flex items-center justify-center">
+          <h2 className="text-5xl font-bold text-[#fff] font-jost">OUR FOCUS</h2>
         </div>
         <div className="flex flex-col gap-[3rem] font-alata">
           <div className="flex flex-wrap gap-[2rem] items-center justify-center">

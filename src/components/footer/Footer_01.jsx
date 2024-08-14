@@ -21,7 +21,7 @@ const Footer_01 = () => {
               className='h-10 w-10 lg:h-[60px] lg:w-[60px]'
             />
             <div className='block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]'>
-              Start building software
+            Spark Regenerative Finance
             </div>
             {/* Footer Slide Item  */}
             {/* Footer Slide Item  */}
@@ -33,7 +33,7 @@ const Footer_01 = () => {
               className='h-10 w-10 lg:h-[60px] lg:w-[60px]'
             />
             <div className='block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]'>
-              Start building software
+              Spark Regenerative Finance
             </div>
             {/* Footer Slide Item  */}
             {/* Footer Slide Item  */}
@@ -45,7 +45,7 @@ const Footer_01 = () => {
               className='h-10 w-10 lg:h-[60px] lg:w-[60px]'
             />
             <div className='block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]'>
-              Start building software
+              Spark Regenerative Finance
             </div>
             {/* Footer Slide Item  */}
           </div>
@@ -59,14 +59,6 @@ const Footer_01 = () => {
         <div className='lg grid grid-cols-1 gap-10 py-[60px] md:grid-cols-[1fr_auto_auto] xl:grid-cols-[1fr_auto_auto_1fr] xl:gap-20 xl:py-[100px]'>
           {/* Footer Widget */}
           <div className='flex flex-col gap-y-6'>
-            <Link to='/' className='inline-block'>
-              <img
-                src='assets/img/th-1/logo.png'
-                alt='logo'
-                width={96}
-                height={24}
-              />
-            </Link>
             <p>
               Our mission is to harness the power of AI to solve complex
               business challenges &amp; decision-makers with data-driven
@@ -211,16 +203,15 @@ const Footer_01 = () => {
         {/* Footer Bottom */}
         <div className='py-9 text-center'>
           <p>
-            © Copyright {new Date().getFullYear()}, All Rights Reserved by
-            Mthemeus
+            Built by regens to regens with  and 
           </p>
         </div>
         {/* Footer Bottom */}
       </div>
       {/* Footer Background Shape 1  */}
-      <div className='orange-gradient-2 absolute -top-[290px] right-[90px] -z-[1] h-[406px] w-[406px] -rotate-[58deg] rounded-[406px]'></div>
+      {/* <div className='bg-[#2D6332] absolute -top-[290px] right-[90px] -z-[1] h-[406px] w-[406px] -rotate-[58deg] rounded-[406px]'></div> */}
       {/* Footer Background Shape 2  */}
-      <div className='orange-gradient-1 absolute -right-[200px] -top-[205px] -z-[1] h-[451px] w-[451px] -rotate-[58deg] rounded-[451px]'></div>
+      <div className='bg-[#2D6332] absolute -right-[200px] -top-[205px] -z-[1] h-[451px] w-[451px] -rotate-[58deg] rounded-[451px]'></div>
     </footer>
   );
 };
