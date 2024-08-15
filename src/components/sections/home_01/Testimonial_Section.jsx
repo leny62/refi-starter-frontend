@@ -1,12 +1,13 @@
 import Testimonial from '../../../components/widget/Testimonial';
-import leny from '../../../assets/img/img/leny.png';
-import tabata from '../../../assets/img/img/tabata.png';
-import oscar from '../../../assets/img/img/oscar.png';
-import susana from '../../../assets/img/img/susana.png';
-import miche from '../../../assets/img/img/Person.png';
 import { FaInstagram } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import susana from "../../../assets/img/img/susana.jpg";
+import tabata from '../../../assets/img/img/tabata.jpg';
+import oscar from '../../../assets/img/img/oscar.jpg';
+import carlos from '../../../assets/img/img/carlos.jpg';
+import poala from '../../../assets/img/img/poala.jpg';
+import leny from '../../../assets/img/img/leny.png';
 
 const Testimonial_Section = () => {
   return (
@@ -38,7 +39,7 @@ const Testimonial_Section = () => {
                       style={{ backgroundImage: 'linear-gradient(to right, #31DDDD, #83C543)' }}>
                       <a href="#" target="_blank" class="text-[#252525] text-xl"><FaInstagram/></a>
                       <a href="#" target="_blank" class="text-[#252525] text-xl"><FaTwitter/></a>
-                      <a href="#" target="_blank" class="text-[#252525] text-xl"><FaLinkedin/></a>
+                      <a href="https://www.linkedin.com/in/tabata-mussone-287426142" target="_blank" class="text-[#252525] text-xl"><FaLinkedin/></a>
                     </div>
                   </div>
                 </div>
@@ -50,8 +51,8 @@ const Testimonial_Section = () => {
                     <div class="w-[12rem] h-[2rem] flex justify-center gap-[1rem] items-center"
                       style={{ backgroundImage: 'linear-gradient(to right, #31DDDD, #83C543)' }}>
                       <a href="#" target="_blank" class="text-[#252525] text-xl"><FaInstagram/></a>
-                      <a href="#" target="_blank" class="text-[#252525] text-xl"><FaTwitter/></a>
-                      <a href="#" target="_blank" class="text-[#252525] text-xl"><FaLinkedin/></a>
+                      <a href="https://x.com/ozkite" target="_blank" class="text-[#252525] text-xl"><FaTwitter/></a>
+                      <a href="https://www.linkedin.com/in/olahvenutures" target="_blank" class="text-[#252525] text-xl"><FaLinkedin/></a>
                     </div>
                   </div>
                 </div>
@@ -63,8 +64,8 @@ const Testimonial_Section = () => {
                     <div class="w-[12rem] h-[2rem] flex justify-center gap-[1rem] items-center"
                       style={{ backgroundImage: 'linear-gradient(to right, #31DDDD, #83C543)' }}>
                       <a href="#" target="_blank" class="text-[#252525] text-xl"><FaInstagram/></a>
-                      <a href="#" target="_blank" class="text-[#252525] text-xl"><FaTwitter/></a>
-                      <a href="#" target="_blank" class="text-[#252525] text-xl"><FaLinkedin/></a>
+                      <a href="https://x.com/SuaNex" target="_blank" class="text-[#252525] text-xl"><FaTwitter/></a>
+                      <a href="https://www.linkedin.com/in/susana-gonzalez-nexans" target="_blank" class="text-[#252525] text-xl"><FaLinkedin/></a>
                     </div>
                   </div>
                 </div>
@@ -76,27 +77,27 @@ const Testimonial_Section = () => {
                     <div class="w-[12rem] h-[2rem] flex justify-center gap-[1rem] items-center"
                       style={{ backgroundImage: 'linear-gradient(to right, #31DDDD, #83C543)' }}>
                       <a href="#" target="_blank" class="text-[#252525] text-xl"><FaInstagram/></a>
-                      <a href="#" target="_blank" class="text-[#252525] text-xl"><FaTwitter/></a>
-                      <a href="#" target="_blank" class="text-[#252525] text-xl"><FaLinkedin/></a>
+                      <a href="https://x.com/LenyIhirwe" target="_blank" class="text-[#252525] text-xl"><FaTwitter/></a>
+                      <a href="https://www.linkedin.com/in/leny-pascal-ihirwe/" target="_blank" class="text-[#252525] text-xl"><FaLinkedin/></a>
                     </div>
                   </div>
                 </div>
                 <div class="w-[13rem] h-[18rem] bg-[#202124]">
                   <div class="flex flex-col justify-center items-center gap-[1rem]">
-                    <img src={miche} alt="Miche" class="w-24 h-24 rounded-full object-cover mt-[2rem]" />
-                    <p class="text-xl text-[#31DDDD] font-jost">Miche</p>
+                    <img src={carlos} alt="Miche" class="w-24 h-24 rounded-full object-cover mt-[2rem]" />
+                    <p class="text-xl text-[#31DDDD] font-jost">Carlos</p>
                     <p class="text-xs text-[#fff] relative bottom-[1rem] font-jost">Tokenmics</p>
                     <div class="w-[12rem] h-[2rem] flex justify-center gap-[1rem] items-center"
                       style={{ backgroundImage: 'linear-gradient(to right, #31DDDD, #83C543)' }}>
                       <a href="#" target="_blank" class="text-[#252525] text-xl"><FaInstagram/></a>
-                      <a href="#" target="_blank" class="text-[#252525] text-xl"><FaTwitter/></a>
-                      <a href="#" target="_blank" class="text-[#252525] text-xl"><FaLinkedin/></a>
+                      <a href="https://x.com/yoSoyDev_eth" target="_blank" class="text-[#252525] text-xl"><FaTwitter/></a>
+                      <a href="https://www.linkedin.com/in/carlos-arroyo-gonzalez-b43514171" target="_blank" class="text-[#252525] text-xl"><FaLinkedin/></a>
                     </div>
                   </div>
                 </div>
                 <div class="w-[13rem] h-[18rem] bg-[#202124]">
                   <div class="flex flex-col justify-center items-center gap-[1rem]">
-                    <img src={susana} alt="Paola" class="w-24 h-24 rounded-full object-cover mt-[2rem]" />
+                    <img src={poala} alt="Paola" class="w-24 h-24 rounded-full object-cover mt-[2rem]" />
                     <p class="text-xl text-[#31DDDD] font-jost">Paola</p>
                     <p class="text-xs text-[#fff] relative bottom-[1rem] font-jost">Tokenmics</p>
                     <div class="w-[12rem] h-[2rem] flex justify-center gap-[1rem] items-center"

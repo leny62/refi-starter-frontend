@@ -12,11 +12,9 @@ const Home_01 = () => {
       <Hero />
       <Service />
       <Content_01 />
-      {/* <Content_02 /> */}
       <FunFact />
       <Pricing />
       <Testimonial_Section />
-
       {/* Body Background Shape 1 */}
     </main>
   );
