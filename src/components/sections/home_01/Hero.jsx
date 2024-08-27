@@ -1,7 +1,42 @@
 import { Link } from 'react-router-dom';
 import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Home from '../../../assets/img/Home.png'
+import Home from '../../../assets/img/Home.png';
+import A from '../../../assets/img/img/a.png';
+import AA from '../../../assets/img/img/aa.png';
+import B from '../../../assets/img/img/b.png';
+import BB from '../../../assets/img/img/bb.png';
+import C from '../../../assets/img/img/c.png';
+import CC from '../../../assets/img/img/cc.jpeg';
+import D from '../../../assets/img/img/d.png';
+import DD from '../../../assets/img/img/dd.png';
+import E from '../../../assets/img/img/e.png';
+import EE from '../../../assets/img/img/ee.png';
+import F from '../../../assets/img/img/f.png';
+import FF from '../../../assets/img/img/ff.png';
+import G from '../../../assets/img/img/g.png';
+import GG from '../../../assets/img/img/gg.png';
+import H from '../../../assets/img/img/h.png';
+import I from '../../../assets/img/img/i.png';
+import J from '../../../assets/img/img/j.png';
+import JJ from '../../../assets/img/img/jj.png';
+import K from '../../../assets/img/img/k.png';
+import KK from '../../../assets/img/img/kk.png';
+import L from '../../../assets/img/img/l.png';
+import LL from '../../../assets/img/img/ll.png';
+import M from '../../../assets/img/img/m.png';
+import MM from '../../../assets/img/img/mm.png';
+import N from '../../../assets/img/img/n.png';
+import NN from '../../../assets/img/img/nn.png';
+import O from '../../../assets/img/img/o.png';
+import OO from '../../../assets/img/img/oo.png';
+import P from '../../../assets/img/img/p.png';
+import Q from '../../../assets/img/img/q.png';
+import W from '../../../assets/img/img/w.png';
+import X from '../../../assets/img/img/x.png';
+import Y from '../../../assets/img/img/y.png';
+import Z from '../../../assets/img/img/z.png';
+
 
 const Hero = () => {
   return (
@@ -78,16 +113,16 @@ const Hero = () => {
               >
                 <SwiperSlide>
                   <img
-                    src='assets/img/icons/refi-dao.png'
+                    src={A}
                     alt='refi-dao'
-                    width='50'
-                    height='1'
+                    width='120'
+                    height='10'
                     className='max-w-full'
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src='assets/img/th-1/brand-2.png'
+                    src={AA}
                     alt='brand-2'
                     width='183'
                     height='35'
@@ -96,7 +131,7 @@ const Hero = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src='assets/img/th-1/brand-3.png'
+                    src={B}
                     alt='brand-3'
                     width='172'
                     height='35'
@@ -105,7 +140,7 @@ const Hero = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src='assets/img/th-1/brand-4.png'
+                    src={BB}
                     alt='brand-4'
                     width='175'
                     height='30'
@@ -114,7 +149,7 @@ const Hero = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src='assets/img/th-1/brand-5.png'
+                    src={C}
                     alt='brand-5'
                     width='168'
                     height='36'
@@ -123,7 +158,7 @@ const Hero = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src='assets/img/th-1/brand-1.png'
+                    src={CC}
                     alt='brand-1'
                     width='180'
                     height='38'
@@ -132,7 +167,7 @@ const Hero = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src='assets/img/th-1/brand-2.png'
+                    src={D}
                     alt='brand-2'
                     width='183'
                     height='35'
@@ -141,7 +176,7 @@ const Hero = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src='assets/img/th-1/brand-3.png'
+                    src={DD}
                     alt='brand-3'
                     width='172'
                     height='35'
@@ -150,7 +185,7 @@ const Hero = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src='assets/img/th-1/brand-4.png'
+                    src={E}
                     alt='brand-4'
                     width='175'
                     height='30'
@@ -159,7 +194,223 @@ const Hero = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src='assets/img/th-1/brand-5.png'
+                    src={EE}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={F}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={FF}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={G}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={GG}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={F}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={H}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={I}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={J}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={JJ}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={K}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={KK}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={L}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={LL}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={M}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={MM}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={NN}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={O}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={OO}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={P}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={Q}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={W}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={X}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={Y}
+                    alt='brand-5'
+                    width='168'
+                    height='36'
+                    className='max-w-full'
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={Z}
                     alt='brand-5'
                     width='168'
                     height='36'
