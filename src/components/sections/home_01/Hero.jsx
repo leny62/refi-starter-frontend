@@ -57,13 +57,13 @@ const Hero = () => {
                 data-jos_animation='fade'
               >
                 <Link
-                  to='/contact'
+                  to=''
                   className='button rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-[#fff] hover:border-[#fff] hover:text-[#000]'
                 >
                   Submit Project
                 </Link>
                 <Link
-                  to='/about'
+                  to=''
                   className='button rounded-[50px] border-2 border-black bg-transparent py-4 text-black after:bg-[#000] hover:border-[#fff] hover:text-[#fff]'
                 >
                   Join Whitelist
@@ -86,11 +86,10 @@ const Hero = () => {
             <div className='my-10 h-[1px] w-full bg-[#DBD6CF] lg:my-16 xl:my-20'></div>
             <div className='jos mx-auto mb-12 max-w-[715px] text-center lg:mb-16'>
               <p className='text-lg'>
-                Companies of all sizes trust us to find AI SaaS critical to
-                their growth and innovation
+                Companies of all sizes trust us
               </p>
             </div>
-            <div className='jos brand-slider' data-jos_animation='fade'>
+            <div className='jos brand-slider flex items-center justify-center' data-jos_animation='fade'>
               <Swiper
                 slidesPerView={2}
                 spaceBetween={105}
