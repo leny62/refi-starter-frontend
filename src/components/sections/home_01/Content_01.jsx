@@ -24,7 +24,6 @@ const Content_01 = () => {
                   loading="lazy"
                 />
               </div>
-              {/* Content Left Block */}
               {/* Content Right Block */}
               <div
                 className='jos order-1 md:order-2'
@@ -32,16 +31,19 @@ const Content_01 = () => {
               >
                 {/* Section Content Block */}
                 <div className='mb-6'>
-                  <h2 className=" text-[36px] md:text-[52px]">Climate technology startups on domand</h2>
+                  <h2 className="text-[36px] md:text-[52px]">Climate technology startups on demand</h2>
                 </div>
                 {/* Section Content Block */}
                 <div className='text-lg leading-[1.4] lg:text-[21px]'>
                   <p className='mb-7 last:mb-0'>
-                    According to 2022 MIT Research, the world needs dozens of emerging climate technology Startups in the next decades to tackle global emissions.
+                    According to 2022 MIT Research, the world needs dozens of emerging climate technology startups in the next decades to tackle global emissions.
                   </p>
                   <p className='mb-7 last:mb-0'>
-                    Our goal is to amplify the impact of Blockchain technology linking outstanding ventures with  community of supporters, prioritizing excellence, trustworthiness, and relentless execution.
-
+                    Our goal is to amplify the impact of Blockchain technology linking outstanding ventures with a community of supporters, prioritizing excellence, trustworthiness, and relentless execution.
+                  </p>
+                  {/* Add Hyperlink */}
+                  <p className='mb-7 last:mb-0'>
+                    Check out our latest update on Twitter: <a href="https://x.com/refistarter/status/1801238476429365702" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">here</a>.
                   </p>
                 </div>
               </div>

@@ -14,7 +14,7 @@ const Home_01 = () => {
       <Content_01 />
       <FunFact />
       {/* <Pricing /> */}
-      <Testimonial_Section />
+      {/* <Testimonial_Section /> */}
       {/* Body Background Shape 1 */}
     </main>
   );

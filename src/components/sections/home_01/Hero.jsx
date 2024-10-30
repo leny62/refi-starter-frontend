@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Home from '../../../assets/img/Home.png';
+import Home from '../../../assets/img/refi-starter_dashboard.png';
 import A from '../../../assets/img/img/a.png';
 import AA from '../../../assets/img/img/aa.png';
 import B from '../../../assets/img/img/b.png';

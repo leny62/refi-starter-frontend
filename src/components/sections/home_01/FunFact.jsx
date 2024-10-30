@@ -8,7 +8,7 @@ const FunFact = () => {
   return (
     <>
       {/*...::: FunFact Section Start :::... */}
-      <section id='funfact-section' className="h-full md:h-full jos grid grid-cols-1 overflow-hidden rounded-[30px] bg-black lg:rounded-[50px] w-full md:w-[90%] mx-auto my-0">
+      <section id='funfact-section' className="h-full md:h-full jos grid grid-cols-1 overflow-hidden rounded-[30px] bg-black lg:rounded-[50px] w-full md:w-[90%] mx-auto my-24 py-4">
         <div className="p-8 flex items-center justify-center">
           <h2 className="text-5xl font-bold text-[#fff] font-jost">OUR FOCUS</h2>
         </div>
