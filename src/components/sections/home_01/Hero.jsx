@@ -86,7 +86,7 @@ const Hero = () => {
             <div className='my-10 h-[1px] w-full bg-[#DBD6CF] lg:my-16 xl:my-20'></div>
             <div className='jos mx-auto mb-12 max-w-[715px] text-center lg:mb-16'>
               <p className='text-lg'>
-                Companies of all sizes trust us
+              Global ReFi Ecosystem
               </p>
             </div>
             <div className='jos brand-slider flex items-center justify-center' data-jos_animation='fade'>
