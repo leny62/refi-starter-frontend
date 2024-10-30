@@ -49,7 +49,7 @@ const Footer_01 = () => {
         <div className='lg grid grid-cols-1 gap-10 py-[60px] md:grid-cols-[1fr_auto_auto] xl:grid-cols-[1fr_auto_auto_1fr] xl:gap-20 xl:py-[100px]'>
           <div className='flex flex-col gap-y-6'>
             <p>
-              Website: <Link to='/'>www.refistarter.org</Link>
+              Website: <Link to='https://www.refistarter.org/'>www.refistarter.org</Link>
             </p>
           </div>
           {/* Footer Widget */}
